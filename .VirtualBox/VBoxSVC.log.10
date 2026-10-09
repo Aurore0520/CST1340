@@ -1,0 +1,390 @@
+00:00:00.004402 main     VirtualBox COM Server 7.2.2 r170484 win.amd64 (Sep 10 2025 19:56:01) release log
+00:00:00.004407 main     Log opened 2025-10-16T13:21:48.211553700Z
+00:00:00.004407 main     Build Type: release
+00:00:00.004411 main     OS Product: Windows 11
+00:00:00.004488 main     OS Release: 10.0.26200.6725
+00:00:00.004489 main     OS Service Pack: 
+00:00:00.049683 main     DMI Product Name: HP Laptop 15-dw3xxx
+00:00:00.069028 main     DMI Product Version: Type1ProductConfigId
+00:00:00.069035 main     Firmware type: UEFI
+00:00:00.069390 main     Secure Boot: Enabled
+00:00:00.069401 main     Host RAM: 7932MB (7.7GB) total, 1563MB available
+00:00:00.069405 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.069406 main     Process ID: 5924
+00:00:00.069406 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.069410 main     Windows Features:
+00:00:00.069410 main       Core Isolation (Memory Integrity): ENABLED
+00:00:00.161058          VirtualBox: object creation starts
+00:00:00.161308          Home directory: 'C:\Users\Chell\.VirtualBox'
+00:00:00.161448          Installed Drivers:
+00:00:00.181579          Loading settings file "C:\Users\Chell\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.184071          usbLibGetDevices: Starting USB device enumeration
+00:00:00.211542          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29c8c30d&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:00.211613          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29c8c30d&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:00.213822          usbLibGetDevices: Found 2 USB devices, 0 captured
+00:00:00.213869          USB: Unknown USB device detected (idVendor: 0x0bda, idProduct: 0xb00c)
+00:00:00.213896          USB: Unknown USB device detected (idVendor: 0x30c9, idProduct: 0x0013)
+00:00:00.248130          HostDnsMonitor: initializing
+00:00:00.256135          HostDnsMonitor: updating information
+00:00:00.256164          HostDnsMonitor: old information
+00:00:00.256165            no server entries
+00:00:00.256166            no domain set
+00:00:00.256166            no search string entries
+00:00:00.256166          HostDnsMonitor: new information
+00:00:00.256166            server 1: 202.123.9.9
+00:00:00.256168            server 2: 202.123.8.8
+00:00:00.256168            no domain set
+00:00:00.256168            no search string entries
+00:00:00.259230          VD: VDInit finished with VINF_SUCCESS
+00:00:00.261162          Platform architecture set to 'x86'
+00:00:00.271380          Loading settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:00:00.271696          Platform architecture set to 'x86'
+00:00:00.272327          VirtualBox: object created
+00:00:01.604148          Saving settings file "C:\Users\Chell\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.620246          Finished saving settings file "C:\Users\Chell\.VirtualBox\VirtualBox.xml"
+00:00:01.620582          Saving settings file "C:\Users\Chell\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.624754          Finished saving settings file "C:\Users\Chell\.VirtualBox\VirtualBox.xml"
+00:00:01.625070          Saving settings file "C:\Users\Chell\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.629236          Finished saving settings file "C:\Users\Chell\.VirtualBox\VirtualBox.xml"
+00:00:01.762131          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:01.934270          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:37.305620          Launched VM: 2124650992 pid: 15584 (0x3ce0) frontend: GUI/Qt name: Ubuntu1
+00:00:37.367332          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:37.389712          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:47.497427          Platform architecture set to 'x86'
+00:00:47.755969          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:47.764836          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:55.175225          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:59.214797          ERROR [COM]: aRC=E_INVALIDARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+00:00:59.774535          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:59.788900          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:00:59.791414          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:59.802372          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:00:59.807997          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:00:59.827632          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:00:59.830986          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:00:59.845073          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:59.851837          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:01:02.650689          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:01:02.651510          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:01:02.652398          HostDnsMonitorProxy::GetDomainName: no domain set
+00:01:02.652461          HostDnsMonitorProxy::GetNameServers:
+00:01:02.652474            name server 1: 202.123.9.9
+00:01:02.652483            name server 2: 202.123.8.8
+00:01:02.652566          HostDnsMonitorProxy::GetSearchStrings:
+00:01:02.652580            no search string entries
+00:01:02.693839          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:01:02.747852          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:02.774774          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:01:05.587399          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:01:05.619934          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:01:05.631736          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:05.669773          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:01:06.574054          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:01:06.605788          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:01:06.616425          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:06.655485          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:01:12.686542          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:01:12.717075          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:01:12.843222          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:12.871107          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:01:35.325293          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:01:35.333362          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:01:35.345339          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:35.356065          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:02:27.576396          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:02:27.585908          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:02:27.597326          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:02:27.611397          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:02:30.308294          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:02:30.315604          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:02:30.323220          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:02:30.337541          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:02:33.119986          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:02:33.128984          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:02:33.135824          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:02:33.149215          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:02:36.510449          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:02:36.517294          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:02:36.524585          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:02:36.538769          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:02:37.088362          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:02:37.097698          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:02:37.104655          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:02:37.118914          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:02:43.948533          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:02:43.956050          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:02:43.967039          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:02:43.980157          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:06:25.150419 dns-monitor HostDnsMonitor: updating information
+00:06:25.150639 dns-monitor HostDnsMonitor: unchanged
+00:06:43.360049 dns-monitor HostDnsMonitor: updating information
+00:06:43.360089 dns-monitor HostDnsMonitor: unchanged
+00:06:52.962385 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:06:52.976915 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29c8c30d&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:06:52.977112 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29c8c30d&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:06:52.979895 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:06:57.133156 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:06:57.145665 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29c8c30d&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:06:57.145742 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29c8c30d&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:06:57.145911 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:06:58.146428 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:06:58.206701 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29c8c30d&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:06:58.206879 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29c8c30d&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:06:58.207116 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:06:58.659288 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:06:58.659712 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29c8c30d&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:06:58.659846 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29c8c30d&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:06:58.660226 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:07:04.055971 dns-monitor HostDnsMonitor: updating information
+00:07:04.056000 dns-monitor HostDnsMonitor: unchanged
+00:07:17.033989 dns-monitor HostDnsMonitor: updating information
+00:07:17.035633 dns-monitor HostDnsMonitor: old information
+00:07:17.035656 dns-monitor   server 1: 202.123.9.9
+00:07:17.035660 dns-monitor   server 2: 202.123.8.8
+00:07:17.035664 dns-monitor   no domain set
+00:07:17.035667 dns-monitor   no search string entries
+00:07:17.035670 dns-monitor HostDnsMonitor: new information
+00:07:17.035673 dns-monitor   no server entries
+00:07:17.035676 dns-monitor   no domain set
+00:07:17.035679 dns-monitor   no search string entries
+00:07:17.042561          HostDnsMonitorProxy::GetDomainName: no domain set
+00:07:17.042714          HostDnsMonitorProxy::GetNameServers:
+00:07:17.042721            no name server entries
+00:07:17.043226          HostDnsMonitorProxy::GetSearchStrings:
+00:07:17.043241            no search string entries
+00:07:19.428482 dns-monitor HostDnsMonitor: updating information
+00:07:19.428518 dns-monitor HostDnsMonitor: old information
+00:07:19.428522 dns-monitor   no server entries
+00:07:19.428527 dns-monitor   no domain set
+00:07:19.428530 dns-monitor   no search string entries
+00:07:19.428533 dns-monitor HostDnsMonitor: new information
+00:07:19.428537 dns-monitor   server 1: 192.168.43.1
+00:07:19.428541 dns-monitor   no domain set
+00:07:19.428544 dns-monitor   no search string entries
+00:07:19.429082          HostDnsMonitorProxy::GetDomainName: no domain set
+00:07:19.429150          HostDnsMonitorProxy::GetNameServers:
+00:07:19.429155            name server 1: 192.168.43.1
+00:07:19.429905          HostDnsMonitorProxy::GetSearchStrings:
+00:07:19.429920            no search string entries
+00:08:48.655847 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:08:48.668431 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29c8c30d&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:08:48.668543 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&29c8c30d&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:08:48.668779 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:15:15.059735          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:15:15.079181          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:15:15.202449          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:15:15.238567          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:27:43.418126          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:27:43.445190          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:27:43.588646          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:27:43.677010          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:27:51.550129          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:27:51.569509          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:27:51.658677          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:27:51.710874          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:28:08.962858          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:28:09.216971          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:28:09.232473          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:28:09.258460          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:28:09.282011          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:28:14.183380          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:28:14.194366          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:28:14.218972          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:28:14.238922          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:28:16.357663          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:28:16.373386          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:28:16.379304          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:28:16.389747          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:28:18.442970          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:28:18.472218          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:28:18.560084          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:28:18.590382          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:37:29.592881 dns-monitor HostDnsMonitor: updating information
+00:37:29.593494 dns-monitor HostDnsMonitor: unchanged
+00:44:52.502857          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:44:52.511667          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:44:52.628639          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:44:52.654969          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:44:53.555980          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:44:53.559899          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:44:53.565986          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:44:53.579341          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:53:26.777738          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:53:26.804078          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:53:26.910708          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:53:27.391031          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:53:30.230254          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:53:30.234129          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:53:30.239433          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:53:30.248393          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:55:42.602214          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+00:55:42.616563          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+00:55:42.644189          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:55:42.661700          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:57:38.565804 dns-monitor HostDnsMonitor: updating information
+00:57:38.566176 dns-monitor HostDnsMonitor: unchanged
+01:01:06.453415          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+01:01:06.473961          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+01:01:06.523833          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:01:06.542436          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:05:02.744616 dns-monitor HostDnsMonitor: updating information
+01:05:02.744667 dns-monitor HostDnsMonitor: unchanged
+01:09:58.528110          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+01:09:58.548702          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+01:09:58.683871          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:09:58.724424          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:10:29.217030          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+01:10:29.229553          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+01:10:29.244880          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:10:29.261798          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:10:49.065142          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+01:10:49.104180          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+01:23:41.279118          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+01:23:41.315185          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+01:23:41.503790          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:23:41.568881          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:32:06.860496 dns-monitor HostDnsMonitor: updating information
+01:32:06.860569 dns-monitor HostDnsMonitor: unchanged
+01:40:59.288567 dns-monitor HostDnsMonitor: updating information
+01:40:59.290196 dns-monitor HostDnsMonitor: old information
+01:40:59.290224 dns-monitor   server 1: 192.168.43.1
+01:40:59.290232 dns-monitor   no domain set
+01:40:59.290238 dns-monitor   no search string entries
+01:40:59.290243 dns-monitor HostDnsMonitor: new information
+01:40:59.290249 dns-monitor   server 1: 202.123.9.9
+01:40:59.290255 dns-monitor   server 2: 202.123.8.8
+01:40:59.290261 dns-monitor   no domain set
+01:40:59.290283 dns-monitor   no search string entries
+01:40:59.299642          HostDnsMonitorProxy::GetDomainName: no domain set
+01:40:59.299826          HostDnsMonitorProxy::GetNameServers:
+01:40:59.299842            name server 1: 202.123.9.9
+01:40:59.299850            name server 2: 202.123.8.8
+01:40:59.301086          HostDnsMonitorProxy::GetSearchStrings:
+01:40:59.301106            no search string entries
+01:41:08.914332 dns-monitor HostDnsMonitor: updating information
+01:41:08.914367 dns-monitor HostDnsMonitor: unchanged
+01:53:44.699259 dns-monitor HostDnsMonitor: updating information
+01:53:44.699658 dns-monitor HostDnsMonitor: unchanged
+01:54:10.247056          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+01:54:10.263686          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+01:54:10.391012          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:54:10.437213          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:54:12.623269          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+01:54:12.627441          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+01:54:12.639442          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:54:12.656408          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:54:49.370716          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+01:54:49.377329          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+01:54:49.395484          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:54:49.415408          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:55:52.995871          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+01:55:53.059451          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+01:55:53.102143          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:55:53.123174          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:56:36.073766          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+01:56:36.078538          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+01:56:36.098530          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:56:36.117791          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:57:33.667035          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+01:57:33.682466          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+01:57:33.702103          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:57:33.723967          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:57:48.464965          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+01:57:48.469131          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+01:57:48.486886          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:57:48.504940          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:57:56.527854          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+01:57:56.533311          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+01:57:56.542861          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+01:57:56.556449          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+01:58:57.186317 dns-monitor HostDnsMonitor: updating information
+01:58:57.186343 dns-monitor HostDnsMonitor: unchanged
+02:19:12.429686          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+02:19:12.469874          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+02:19:12.662677          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:19:12.747320          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+02:22:33.516740          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+02:22:33.524151          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+02:22:33.548251          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:22:33.570720          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+02:22:36.972123          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+02:22:36.980257          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+02:22:36.994809          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:22:37.021495          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+02:28:04.098134          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+02:28:04.114377          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+02:28:04.147183          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:28:04.189912          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+02:46:29.060374          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+02:46:29.066051          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+02:46:29.105539          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:46:29.131523          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+02:46:29.684296          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+02:46:29.689625          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+02:46:29.698940          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:46:29.712355          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+02:47:25.228824 dns-monitor HostDnsMonitor: updating information
+02:47:25.229121 dns-monitor HostDnsMonitor: unchanged
+02:47:28.828524 dns-monitor HostDnsMonitor: updating information
+02:47:28.828555 dns-monitor HostDnsMonitor: unchanged
+02:50:49.497544 dns-monitor HostDnsMonitor: updating information
+02:50:49.497901 dns-monitor HostDnsMonitor: unchanged
+02:56:14.799060          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+02:56:14.806934          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+02:56:14.847526          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:56:14.868006          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+02:56:18.822448          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+02:56:18.827041          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+02:56:18.833776          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+02:56:18.846039          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+02:58:57.180358 dns-monitor HostDnsMonitor: updating information
+02:58:57.180386 dns-monitor HostDnsMonitor: unchanged
+04:25:08.281190 dns-monitor HostDnsMonitor: updating information
+04:25:08.282112 dns-monitor HostDnsMonitor: unchanged
+05:44:02.428179 dns-monitor HostDnsMonitor: updating information
+05:44:02.428230 dns-monitor HostDnsMonitor: unchanged
+05:50:03.681783 dns-monitor HostDnsMonitor: updating information
+05:50:03.681826 dns-monitor HostDnsMonitor: unchanged
+05:55:03.642441          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+05:55:03.674787          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+05:55:03.886357          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+05:55:03.946815          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+06:13:26.875635          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+06:13:26.888216          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+06:13:26.965901          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+06:13:26.987267          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+06:13:28.013201          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+06:13:28.046490          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+06:13:28.057343          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+06:13:28.071997          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+06:13:30.108555          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+06:13:30.126028          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+06:13:30.141998          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+06:13:30.169858          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+06:22:16.830914          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+06:22:16.845890          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+06:22:16.856676          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Paused)}, preserve=false aResultDetail=0
+06:22:22.686187          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+06:22:22.702758          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+06:22:22.732659          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+06:22:22.752499          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Paused)}, preserve=false aResultDetail=0
+06:22:22.889339          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+06:22:22.974946          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+06:22:23.022003          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saving)}, preserve=false aResultDetail=0
+06:23:19.102805          Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+06:23:19.110721          Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+06:23:19.198613 SaveState Saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox" with version "1.19-windows"
+06:23:19.208371 SaveState Finished saving settings file "C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vbox"
+06:23:19.227294          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+06:23:19.261948          ERROR [COM]: aRC=E_INVALIDARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+06:23:19.465883          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+06:23:19.551926          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+06:23:20.645053          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+06:23:20.703607          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Saved)}, preserve=false aResultDetail=0
+06:27:06.190501 main     VirtualBox: object deletion starts
+06:27:06.190640 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium 'C:\Users\Chell\VirtualBox VMs\Ubuntu1\Ubuntu1.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+06:27:06.198178 main     HostDnsMonitor: shutting down ...
+06:27:06.198488 main     HostDnsMonitor: shut down
+06:27:06.229573 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+06:27:06.230648 main     VirtualBox: object deleted
